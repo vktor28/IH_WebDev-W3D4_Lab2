@@ -6,7 +6,7 @@ body {
 }
 
 .box {
-  animation: iryvenir 4s infinite;
+  animation: iryvenir 5s infinite ease-in;
   background-color: red;
   position: relative;
   width: 100px;
@@ -19,11 +19,24 @@ body {
   0% {
     top: 0px;
   }
-  50% {
-    top: 550px;
-    height: 20px;
+
+
+  45% {
+    top: 500px;
+    height: 100px;
     width: 100px;
   }
+  50% {
+    top: 600px;
+    height: 5px;
+    width: 150px;
+  }
+  60% {
+    top: 500px;
+    height: 100px;
+    width: 100px;
+  }
+
   100% {
     top: 0px;
   }
