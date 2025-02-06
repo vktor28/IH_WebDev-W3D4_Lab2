@@ -20,7 +20,6 @@ body {
     top: 0px;
   }
 
-
   45% {
     top: 500px;
     height: 100px;
@@ -31,7 +30,7 @@ body {
     height: 5px;
     width: 150px;
   }
-  60% {
+  70% {
     top: 500px;
     height: 100px;
     width: 100px;
